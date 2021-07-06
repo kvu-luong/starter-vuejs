@@ -1,0 +1,6 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+npm run lint --fix
+git add .
+echo 'Before commit -> to continue the process need to commit again'

@@ -33,3 +33,10 @@ vue create <name-of-project>
 npm install @vue/eslint-config-airbnb
 ```
 creating file .eslintrc.js and .editorconfig
+
+3. Install husky for commit lint
+```
+npx husky-init && npm install  
+```
+[husky setting page1](https://typicode.github.io/husky/#/?id=test-hooks)
+[husky setting](https://panjiachen.github.io/vue-element-admin-site/guide/advanced/git-hook.html#husky)
