@@ -10,7 +10,12 @@
   },
   "dependencies": {
     "@vue/eslint-config-airbnb": "^5.3.0",
+    "autoprefixer": "^9.8.6",
     "core-js": "^3.6.5",
+    "postcss": "^7.0.36",
+    "sass": "^1.35.1",
+    "sass-loader": "^10.1.1",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.4",
     "vue": "^3.0.0"
   },
   "devDependencies": {
