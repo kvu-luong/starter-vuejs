@@ -1,4 +1,4 @@
-# start-vuejs
+# starter-vuejs
 
 ## Project setup
 ```
@@ -39,6 +39,7 @@ creating file .eslintrc.js and .editorconfig
 npx husky-init && npm install  
 ```
 [husky setting page1](https://typicode.github.io/husky/#/?id=test-hooks)
+
 [husky setting](https://panjiachen.github.io/vue-element-admin-site/guide/advanced/git-hook.html#husky)
 
 3. Adding tailwindcss with vue3
@@ -60,7 +61,8 @@ import './index.css'
 
 createApp(App).mount('#app')
 ```
-[tailwinds](https://tailwindcss.com/docs/guides/vue-3-vite)
+[tailwinds](https://tailwindcss.com/docs/guides/vue-3-vite).
+
 4. Using sass
 ```
 "sass": "^1.35.1",
@@ -68,3 +70,9 @@ createApp(App).mount('#app')
 
 npm install -d sass sass-loader@10.1.1
 ```
+5. Install vue-router
+```
+npm i vue-router@next --save
+```
+[router-vuejs3](https://learnvue.co/2020/04/a-first-look-at-vue-router-in-vue3/)
+
